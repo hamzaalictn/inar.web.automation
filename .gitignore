@@ -1,0 +1,89 @@
+# System files #
+################
+*.DS_Store
+*.Thumbs.db
+*.bak
+*.swp
+*~
+Icon?
+ehthumbs.db
+
+# IDEs and Editors #
+####################
+/.idea/
+/.vscode/
+/.vs/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.iml
+*.iws
+*.ipr
+
+# Java/Maven #
+##############
+target/
+/target/          # Maven output directory
+*.class           # Compiled Java classes
+*.jar             # Packaged archives
+*.war             # Web application archives
+*.nar             # Maven NAR files
+*.ear             # Enterprise archives
+*.zip             # Compressed archives
+*.tar.gz          # Compressed archives
+*.rar             # Compressed archives
+hs_err_pid*       # Java crash logs
+
+# Dependency directories #
+##########################
+/node_modules/    # NPM modules
+/vendor/           # Composer dependencies
+/bundle/           # Ruby dependencies
+/pods/             # CocoaPods dependencies
+/.pnp              # Yarn Plug'n'Play file
+.pnp.js
+
+# Build output #
+################
+/build/
+/dist/
+/out/
+/bin/
+/obj/
+/lib/
+
+# Log files #
+#############
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files #
+##################
+*.sqlite
+*.db
+*.sql
+
+# Environment files #
+#####################
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package lock files #
+######################
+package-lock.json
+yarn.lock
+
+# Miscellaneous #
+#################
+*.tmp
+*.temp
+*.tlog
+*.vsdx
+*.vsd
+.DS_Store?
+
